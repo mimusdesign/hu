@@ -2,7 +2,7 @@ name: Scraper Hungary
 
 on:
   schedule:
-    - cron: '58 10 * * *'
+    - cron: '55 0,6,12,18 * * *'
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
